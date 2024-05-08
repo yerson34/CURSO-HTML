@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Mi Portafolio Personal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <h1>Mi Portafolio Personal</h1>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="inicio.html">Inicio</a></li>
+        <li><a href="proyectos.html">Proyectos</a></li>
+        <li><a href="hobbies.html">Hobbies</a></li>
+        <li><a href="contactos.html">Contacto</a></li>
+    </ul>
+</nav>
+
+<section id="contacto">
+    <h2>Contacto</h2>
+    <div>
+        <form action="enviar.php" method="post">
+            <input type="text" name="nombre" placeholder="Nombre" required>
+            <input type="text" name="apellidos" placeholder="Apellidos" required>
+            <input type="text" name="celular" placeholder="Celular" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <textarea name="mensaje" placeholder="Mensaje" required></textarea>
+            <input type="submit" value="Enviar">
+            <input type="button" value="Cancelar">
+        </form>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2024 Mi Portafolio Personal</p>
+</footer>
+
+</body>
+</html>
